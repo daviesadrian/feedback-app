@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+flask.log
+
+# Terraform
+infra/.terraform/
+infra/terraform.tfstate
+infra/terraform.tfstate.backup
+infra/.terraform.lock.hcl
+
+# Never commit credentials
+*.json
+!package.json
